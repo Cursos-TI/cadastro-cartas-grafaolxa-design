@@ -7,27 +7,27 @@
 int main() {
   
   char Estado; 
-  char código_da_carta[6];
+  char codigo_da_carta[6];
   char nome_da_cidade[50];
-  int população; 
-  float área em km;
+  int populaçao; 
+  float area em km;
   float PIB; 
-  int números_de_pontos_turísticos; 
+  int numeros_de_pontos_turisticos; 
 
    printf("digite o Estado: \n");
     scanf(" %S", &Estado);
-   printf("digite o código_da_carta: \n");
-   scanf("%s" ,&código_da_carta);
+   printf("digite o codigo_da_carta: \n");
+   scanf("%s" ,&codigo_da_carta);
   printf("digite o nome_da_cidade: \n");
   scanf("%s" ,&nome da cidade);
   printf("digite a quantidade  da população: \n");
   scanf("%d" ,&população);
   printf("digite área em km: \n");
-  scanf("%f" ,&área em km);
+  scanf("%f" ,&area em km);
   printf("digite PIB: \n);
   scanf("%f" ,&PIB);
-  printf("digite o números de pontos turísticos: \n");
-  scanf("%d" ,&pontos turísticos);
+  printf("digite o números de pontos turisticos: \n");
+  scanf("%d" ,&pontos turisticos);
 
   
   return 0;
